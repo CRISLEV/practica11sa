@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  jenkins:
+    image: crislev/saimg:jenkins
+    container_name: jenkins
+    volumes:
+      - ./:/home/
+      - ./Cliente/:/home/Cliente/
+      - ./esb/:/home/esb/
+      - ./Repartidor/:/home/Repartidor/
+      - ./Reports/:/home/Reports/
+      - ./Restaurante/:/home/Restaurante/
+      - ./jenkins_config/:/var/jenkins_home
+    expose:
+      - 80
+      - 443
+    ports:
+      - "8080:8080"
+    networks:
+      - mynet
+            
+networks:
+  mynet:
+    driver: bridge

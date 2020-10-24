@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-10-17 02:42:33.828 UTC</timestamp>
+  <md5sum>87d3ecdd480e61eff1185f507c9feb26</md5sum>
+  <fileName>Credential id=09e238fe-fe9c-47fd-bb35-a118e5f30869 name=CRISLEV/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.13">
+      <timestamp>1602902553804</timestamp>
+      <itemFullName>Practica 10</itemFullName>
+      <timestamp0>1602902553804</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.13">
+      <timestamp>1602903651946</timestamp>
+      <itemFullName>practica 10</itemFullName>
+      <timestamp0>1602903651946</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
